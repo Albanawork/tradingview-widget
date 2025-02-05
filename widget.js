@@ -1,6 +1,6 @@
 window.addEventListener("load", function () {
     let script = document.createElement("script");
-    script.src = "https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js";
+    script.src = "tradingview.js";
     script.async = true;
     script.innerHTML = `
     {
