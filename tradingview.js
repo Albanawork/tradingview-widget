@@ -162,7 +162,7 @@
                 this._copyrightContainer = m || p;
                 const f = h.classList.contains("tradingview-widget-container");
                 this.iframeContainer = h && f ? h : document.createElement("div"), o && (this.settings = this.filterRawSettings(o)), o && this._validateSettings() || (console.error("Invalid settings provided, fall back to defaults"), this.settings = this.filterRawSettings(this.defaultSettings));
-                const w = "32px",
+                const w = "60px",
                     {
                         width: y,
                         height: b
